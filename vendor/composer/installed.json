@@ -1,0 +1,221 @@
+{
+    "packages": [
+        {
+            "name": "eftec/bladeone",
+            "version": "4.13",
+            "version_normalized": "4.13.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/EFTEC/BladeOne.git",
+                "reference": "a24ce564a681fa3e37b2490952915c403ee9e56a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/EFTEC/BladeOne/zipball/a24ce564a681fa3e37b2490952915c403ee9e56a",
+                "reference": "a24ce564a681fa3e37b2490952915c403ee9e56a",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": ">=7.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8.5.23"
+            },
+            "suggest": {
+                "eftec/bladeonehtml": "Extension to create forms",
+                "ext-mbstring": "This extension is used if it's active"
+            },
+            "time": "2024-03-26T21:35:25+00:00",
+            "bin": [
+                "lib/bladeonecli"
+            ],
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "eftec\\bladeone\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jorge Patricio Castro Castillo",
+                    "email": "jcastro@eftec.cl"
+                }
+            ],
+            "description": "The standalone version Blade Template Engine from Laravel in a single php file",
+            "homepage": "https://github.com/EFTEC/BladeOne",
+            "keywords": [
+                "blade",
+                "php",
+                "template",
+                "templating",
+                "view"
+            ],
+            "support": {
+                "issues": "https://github.com/EFTEC/BladeOne/issues",
+                "source": "https://github.com/EFTEC/BladeOne/tree/4.13"
+            },
+            "install-path": "../eftec/bladeone"
+        },
+        {
+            "name": "wpbones/pure-css-switch",
+            "version": "1.1.1",
+            "version_normalized": "1.1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wpbones/pure-css-switch.git",
+                "reference": "b7bc7d47eafd24a21322113dcb93d181936d5976"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wpbones/pure-css-switch/zipball/b7bc7d47eafd24a21322113dcb93d181936d5976",
+                "reference": "b7bc7d47eafd24a21322113dcb93d181936d5976",
+                "shasum": ""
+            },
+            "time": "2024-04-09T16:23:14+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "WPXShortcodesManagerLight\\PureCSSSwitch\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Giovambattista Fazioli",
+                    "email": "giovambattista.fazioli@gmail.com",
+                    "homepage": "http://wpbones.wordpress.com"
+                }
+            ],
+            "description": "Pure CSS Switch Button for WP Bones",
+            "homepage": "https://github.com/wpbones/pure-css-switch",
+            "keywords": [
+                "WP Bones",
+                "css",
+                "less"
+            ],
+            "support": {
+                "email": "giovambattista.fazioli@gmail.com",
+                "issues": "https://github.com/wpbones/pure-css-switch/issues",
+                "source": "https://github.com/wpbones/pure-css-switch/tree/1.1.1"
+            },
+            "install-path": "../wpbones/pure-css-switch"
+        },
+        {
+            "name": "wpbones/pure-css-tabs",
+            "version": "1.0.12",
+            "version_normalized": "1.0.12.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wpbones/pure-css-tabs.git",
+                "reference": "b9c8177d316c95bb7ae60eb80d91c42da4007578"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wpbones/pure-css-tabs/zipball/b9c8177d316c95bb7ae60eb80d91c42da4007578",
+                "reference": "b9c8177d316c95bb7ae60eb80d91c42da4007578",
+                "shasum": ""
+            },
+            "time": "2024-04-09T16:20:34+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "WPXShortcodesManagerLight\\PureCSSTabs\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Giovambattista Fazioli",
+                    "email": "giovambattista.fazioli@gmail.com",
+                    "homepage": "http://wpbones.wordpress.com"
+                }
+            ],
+            "description": "Pure CSS tabs for WP Bones",
+            "homepage": "https://github.com/wpbones/pure-css-tabs",
+            "keywords": [
+                "WP Bones",
+                "css",
+                "less"
+            ],
+            "support": {
+                "email": "giovambattista.fazioli@gmail.com",
+                "issues": "https://github.com/wpbones/pure-css-tabs/issues",
+                "source": "https://github.com/wpbones/pure-css-tabs/tree/1.0.12"
+            },
+            "install-path": "../wpbones/pure-css-tabs"
+        },
+        {
+            "name": "wpbones/wpbones",
+            "version": "1.4.5",
+            "version_normalized": "1.4.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wpbones/WPBones.git",
+                "reference": "8a70ca82c000184098f105fcf7686720aebf8c3f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wpbones/WPBones/zipball/8a70ca82c000184098f105fcf7686720aebf8c3f",
+                "reference": "8a70ca82c000184098f105fcf7686720aebf8c3f",
+                "shasum": ""
+            },
+            "require": {
+                "eftec/bladeone": "^4.13",
+                "php": ">=7.4"
+            },
+            "time": "2024-05-28T11:46:01+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "src/helpers.php"
+                ],
+                "psr-4": {
+                    "WPXShortcodesManagerLight\\WPBones\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "Giovambattista Fazioli",
+                    "email": "giovambattista.fazioli@gmail.com",
+                    "homepage": "http://undolog.com"
+                }
+            ],
+            "description": "WordPress framework for Laravel developers",
+            "homepage": "https://wpbones.vercel.app",
+            "keywords": [
+                "framework",
+                "laravel",
+                "plugins",
+                "themes",
+                "wordpress",
+                "wpbones"
+            ],
+            "support": {
+                "issues": "https://github.com/wpbones/WPBones/issues",
+                "source": "https://github.com/wpbones/WPBones/"
+            },
+            "install-path": "../wpbones/wpbones"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

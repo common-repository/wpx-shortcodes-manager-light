@@ -1,0 +1,46 @@
+/**
+ * Dashboard style
+ *
+ * You can keep a bound between css class and plugin name/namespace.
+ * To do this, you have to use the right naming for the css id and class.
+ *
+ */
+table.shortcodes td.column-primary {
+  font-weight: bold;
+}
+table.shortcodes td.column-callback code {
+  background-color: transparent;
+  font-size: 12px;
+}
+table.shortcodes td.column-custom {
+  width: 100px;
+}
+table.shortcodes td.column-callable,
+table.shortcodes td.column-enabled,
+table.shortcodes td.column-show_in_content {
+  width: 50px;
+}
+.wpxsm-textarea {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #ffe26f;
+  border: none;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  padding: 8px;
+  min-height: 100px;
+  margin-top: 8px;
+}
+.wpxsm-info {
+  border-left: 4px solid rgba(133, 180, 214, 0.5);
+  padding: 6px 0 6px 6px;
+  display: block;
+  font-style: italic;
+  color: #999;
+  position: relative;
+  vertical-align: middle;
+}
+.wpbones-tabs input#shortcode_name {
+  width: 80%;
+}

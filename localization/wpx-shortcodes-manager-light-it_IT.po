@@ -1,0 +1,224 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Shortcodes Manager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-05 17:56+0100\n"
+"PO-Revision-Date: 2018-01-05 17:56+0100\n"
+"Last-Translator: \n"
+"Language-Team: Giovambattista Fazioli <giovambattista.fazioli@gmail.com>\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_nx:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.0.5\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: node_modules\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+
+#: config/menus.php:15
+msgid "Shortcodes Manager"
+msgstr ""
+
+#: config/menus.php:20
+msgid "Manage"
+msgstr ""
+
+#: config/menus.php:28
+msgid "Settings"
+msgstr ""
+
+#: plugin/Http/Controllers/Dashboard/DashboardController.php:105
+msgid "Shortocde update!"
+msgstr ""
+
+#: plugin/Http/Controllers/Dashboard/DashboardController.php:108
+msgid "Error while updating shortocde!"
+msgstr ""
+
+#: plugin/Http/Controllers/Dashboard/DashboardController.php:125
+msgid "Shortocde created!"
+msgstr ""
+
+#: plugin/Http/Controllers/Dashboard/DashboardController.php:128
+msgid "Error while creating shortocde!"
+msgstr ""
+
+#: plugin/Http/Controllers/Dashboard/DashboardController.php:139
+msgid "Shortcode not found"
+msgstr ""
+
+#: plugin/Http/Controllers/Dashboard/DashboardController.php:142
+msgid "Shortcode removed!"
+msgstr ""
+
+#: plugin/Http/Controllers/Dashboard/ShortcodesListTable.php:42
+msgid "Shortcode"
+msgstr ""
+
+#: plugin/Http/Controllers/Dashboard/ShortcodesListTable.php:43
+msgid "Callable"
+msgstr ""
+
+#: plugin/Http/Controllers/Dashboard/ShortcodesListTable.php:44
+msgid "Callback"
+msgstr ""
+
+#: plugin/Http/Controllers/Dashboard/ShortcodesListTable.php:45
+msgid "Custom"
+msgstr ""
+
+#: plugin/Http/Controllers/Dashboard/ShortcodesListTable.php:46
+msgid "Enabled"
+msgstr ""
+
+#: plugin/Http/Controllers/Dashboard/ShortcodesListTable.php:47
+msgid "Display"
+msgstr ""
+
+#: plugin/Http/Controllers/Dashboard/ShortcodesListTable.php:108
+msgid "__internal"
+msgstr ""
+
+#: plugin/Http/Controllers/Dashboard/ShortcodesListTable.php:131
+msgid "Edit"
+msgstr ""
+
+#: plugin/Http/Controllers/Dashboard/ShortcodesListTable.php:134
+#, php-format
+msgid "Warning! Are you sure to delete '%s' custom shortcode?"
+msgstr ""
+
+#: plugin/Http/Controllers/Dashboard/ShortcodesListTable.php:135
+msgid "Delete"
+msgstr ""
+
+#: plugin/Http/Controllers/Dashboard/ShortcodesListTable.php:177
+msgid "Disable"
+msgstr ""
+
+#: plugin/Http/Controllers/Dashboard/ShortcodesListTable.php:287
+#, php-format
+msgid "No %s found."
+msgstr ""
+
+#: plugin/Http/Controllers/Dashboard/ShortcodesListTable.php:293
+msgid "Please, check again your search parameters."
+msgstr ""
+
+#: plugin/Http/Controllers/Settings/SettingsController.php:29
+msgid "Settings Reset to default successfully!"
+msgstr ""
+
+#: plugin/Http/Controllers/Settings/SettingsController.php:36
+msgid "Settings updated successfully!"
+msgstr ""
+
+#: plugin/Kernel/ShortcodesManager.php:180
+#, php-format
+msgid "The shortcode <code>[%s]</code> was disabled by Shortocode Manager!"
+msgstr ""
+
+#: plugin/Kernel/ShortcodesManager.php:276
+msgid "Unregistered"
+msgstr ""
+
+#: plugin/Kernel/ShortcodesManager.php:287
+msgid "Disabled"
+msgstr ""
+
+#: plugin/Kernel/ShortcodesManager.php:298
+msgid "Hide in content"
+msgstr ""
+
+#: plugin/Kernel/ShortcodesManager.php:308
+msgid "No suspicius Shortcodes found!"
+msgstr ""
+
+#: plugin/Kernel/ShortcodesManager.php:314
+msgid "Shortcodes Manager Analysis Warning!"
+msgstr ""
+
+#: plugin/Kernel/ShortcodesManager.php:316
+msgid ""
+"Some shortcodes in your content seems <strong>suspicious</strong> Please "
+"check preview or content."
+msgstr ""
+
+#: resources/views/dashboard/create.php:5
+msgid "Create a new own Shortcode"
+msgstr ""
+
+#: resources/views/dashboard/create.php:10
+#: resources/views/dashboard/edit.php:18
+msgid "Editor"
+msgstr ""
+
+#: resources/views/dashboard/create.php:19
+#: resources/views/dashboard/edit.php:32
+msgid "Shortocde"
+msgstr ""
+
+#: resources/views/dashboard/create.php:23
+#: resources/views/dashboard/edit.php:37
+msgid "eg: notice"
+msgstr ""
+
+#: resources/views/dashboard/create.php:27
+#: resources/views/dashboard/edit.php:41
+msgid "This is the shortcode name that you will use in you post content."
+msgstr ""
+
+#: resources/views/dashboard/create.php:34
+#: resources/views/dashboard/edit.php:48
+msgid "Eg: <span color=\"#f00\">I am red $content</span>"
+msgstr ""
+
+#: resources/views/dashboard/create.php:37
+#: resources/views/dashboard/edit.php:52
+msgid ""
+"Edit any HTML markup and use the <code>$content</code> placeholder if you "
+"wish wrap shortcode content."
+msgstr ""
+
+#: resources/views/dashboard/create.php:42
+#: resources/views/dashboard/edit.php:57 resources/views/settings/index.php:39
+msgid "Save changes"
+msgstr ""
+
+#: resources/views/dashboard/edit.php:5
+msgid "Edit your own Shortcode"
+msgstr ""
+
+#: resources/views/dashboard/index.php:5
+msgid "Shortcodes"
+msgstr ""
+
+#: resources/views/dashboard/index.php:6
+msgid "Add New"
+msgstr ""
+
+#: resources/views/settings/index.php:7
+msgid "Shortcodes Manager Settings"
+msgstr ""
+
+#: resources/views/settings/index.php:18
+msgid "Shortcodes Analysis"
+msgstr ""
+
+#: resources/views/settings/index.php:25
+msgid ""
+"Enable a Shortcodes Analysis when you edit a post and display an Alert "
+"Message whether found any <strong>unregistered</strong> shortcodes."
+msgstr ""
+
+#: resources/views/settings/index.php:32
+msgid "Enable Shortcodes Analysis"
+msgstr ""
+
+#: resources/views/settings/index.php:38
+msgid "Reset to default"
+msgstr ""

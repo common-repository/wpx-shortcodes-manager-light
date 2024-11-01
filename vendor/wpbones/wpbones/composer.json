@@ -1,0 +1,38 @@
+{
+  "authors": [
+    {
+      "email": "giovambattista.fazioli@gmail.com",
+      "homepage": "http://undolog.com",
+      "name": "Giovambattista Fazioli"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "src/helpers.php"
+    ],
+    "psr-4": {
+      "WPXShortcodesManagerLight\\WPBones\\": "src/"
+    }
+  },
+  "description": "WordPress framework for Laravel developers",
+  "homepage": "https://wpbones.vercel.app",
+  "keywords": [
+    "wordpress",
+    "laravel",
+    "framework",
+    "wpbones",
+    "plugins",
+    "themes"
+  ],
+  "license": "GPL-3.0-only",
+  "name": "wpbones/wpbones",
+  "require": {
+    "php": ">=7.4",
+    "eftec/bladeone": "^4.13"
+  },
+  "support": {
+    "issues": "https://github.com/wpbones/WPBones/issues",
+    "source": "https://github.com/wpbones/WPBones/"
+  },
+  "type": "library"
+}

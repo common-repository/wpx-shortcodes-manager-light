@@ -1,0 +1,14 @@
+<?php
+
+namespace {Namespace}\Http\Controllers{Path};
+
+if (! defined('ABSPATH')) {
+    exit;
+}
+
+use {Namespace}\WPBones\Database\Model;
+
+class {ClassName} extends Model
+{
+
+}
